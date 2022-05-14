@@ -1,0 +1,317 @@
+*{
+    margin: 0%;
+    padding: 0%
+}
+
+#whatsapp{
+    border-radius: 50%;
+    width: 2.5cm;
+    position: fixed;
+    margin-left: 90%;
+    margin-top: 40%;
+    transform: translateY(0px);
+    animation: float 5s ease-in-out infinite;
+    box-shadow: 0 0 5em rgb(62, 214, 169);
+}
+
+@keyframes float{
+    0% {
+        transform: translatey(0px)
+    }
+
+    50% {
+        transform: translatey(-20px)
+    }
+
+    100% {
+        transform: translatey(0px)
+    }
+}
+
+header{
+    text-align: right;
+    color: azure;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logotipo{
+    margin: auto;
+    padding: 2% 4%;
+}
+
+.container{
+    background-image: url(./icos/original-89acb4165f07a1f37cb3238c24006ddf-762x450.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    overflow: hidden;
+}
+
+.section{
+    font-size: 1.25cm;
+    display: inline-block;
+    max-width: 55%;
+    margin-left: 8%;
+    margin-top: 5%;
+    font-family: 'myfont';
+    color:rgb(255, 255, 255);
+    
+}
+
+.section h3{
+    font-size: medium;
+    display: inline-block;
+    font-family: sans-serif;
+    color:rgb(0, 0, 0);
+}
+
+#cor{
+    color: rgb(3, 3, 122);
+}
+
+.formcontainer{
+    max-width: 230px;
+    background-color: rgba(89, 169, 243, 0.6);
+    padding: 20px;
+    float: right;
+    border-radius: 5%;
+    margin: 5%;
+    font-size:larger;
+}
+
+input, select{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+#section2{
+    background-image: linear-gradient(to bottom right, rgb(104, 96, 219), grey);
+    padding: 40px 0px 40px 40px;
+    text-align: center;   
+}
+
+.picture{
+    width: 160px;
+    border-radius: 5%;
+}
+
+.description{
+    color: white;
+    display: inline-block;
+    max-width: 40%;
+    margin-left: 40px;
+    text-align: left;
+}
+.description p, .description h3{
+    margin-bottom: 20px;
+}
+
+.description h3{
+    font-size: 24px;
+}
+
+.container2{
+    background-color:white;
+    background-attachment: local;
+    background-size: cover;
+    overflow: hidden;
+    border-radius: 2.5%;
+}
+
+.imagemorg{
+    display: inline-block;
+    max-width: 9cm;
+}
+
+.imagemorg img{
+    width: 9cm;
+}
+
+#why{
+    margin: 1cm 0cm 4cm 1cm;
+    width: 50%;
+    display: inline-block;
+    font-size: 0.5cm;
+    border: 1cm;
+}
+
+#why p{
+    color: #888;
+}
+
+.widget-image{
+    display: inline-block;
+    max-width: 10cm;
+    margin: 0cm 1cm 4cm 0cm;
+}
+
+.widget-image img{
+    width: 10cm;
+}
+
+#widget-text{
+    margin: 1cm 1cm 4cm 0cm;
+    width: 50%;
+    display: inline-block;
+    font-size: 0.5cm;
+    border: 1cm;
+    color: #888;
+}
+
+#widget-text h1{
+    color: black;
+}
+
+.container2 a{
+    font-size: 75%;
+}
+
+.serviços{
+    border-radius: 5%;
+}
+
+.serviços:hover{
+    background-image: linear-gradient(to bottom right, rgb(51, 40, 206), rgb(212, 81, 224));
+    transform: translateY(-10px);
+    transition: all 0.5s ease;
+    color: white;
+}
+
+#icos{
+    
+    text-align: center;
+    
+    display: inline-block;
+    
+    background-color:white;
+}
+
+.ico{
+    margin: 1cm;
+    height: 70px;
+}
+
+#icos h1{
+    font-size: 1cm;
+    text-align: center;
+}
+
+#icos p{
+    width: 8cm;
+}
+
+#icos div{
+    display: inline-block;
+    margin: 0cm 0cm 1cm 1.5cm;
+}
+
+#localization{
+    background-image: url(./icos/tecnologia-na-contabilidade.jpg);
+    background-attachment: fixed;
+}
+
+#localization p{
+    font-size: 120%;
+    font-weight: bold;  
+}
+
+#local{
+    text-decoration: underline;
+}
+
+#maps{
+    margin: 1cm;
+    box-shadow: 0 0 2em rgb(35, 255, 189);
+    border-radius: 0%;
+    width: 50%;
+}
+
+#end{
+    display: inline-block;
+    max-width: 20cm;
+}
+
+#end img{
+    width: 9cm;
+}
+
+#end h1 p{
+    margin: 1cm 0cm 1cm 0cm;
+    display: inline-block;
+    font-size: 0.5cm;
+    border: 1cm;
+}
+
+#end p{
+    color: #888;
+    width: 10cm;
+    font-size: 0.5cm;
+}
+
+footer{
+    background-color: rgb(3, 3, 122);
+    display: inline-block;
+    width: 100%;
+}
+
+.logotipo2{
+    padding: 1cm;
+    position: absolute;
+}
+
+#footer-services{
+    color: #888;
+    font-size: larger;
+    display: inline-block;
+    margin: 1cm 1cm 1cm 40%;
+    position: absolute;
+}
+
+#footer-services h3{
+    color: rgb(196, 139, 35);
+    font-family: calibri;
+}
+
+#footer-services p{
+    margin: 0.5cm;
+}
+
+#footer-localization{
+    color: #888;
+    font-size: larger;
+    display: inline-block;
+    margin: 1cm 1cm 1cm 80%;
+    
+}
+
+#footer-localization h3{
+    color: rgb(196, 139, 35);
+    font-family: calibri;
+}
+
+#footer-localization p{
+    margin: 0.5cm;
+}
+
+#footer-localization a{
+    margin: 1cm 0.5cm 0.5cm 0.5cm;
+    color:#888;
+    text-decoration: none;
+}
+
+hr{
+    border-color: orange;
+}
+
+#dev{
+    margin: 1%;
+    text-align: center;
+}
+
+#dev img{
+    width: 10cm;
+    margin-right: 90%;
+}
