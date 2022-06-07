@@ -273,23 +273,30 @@ footer{
 #footer-services h3{
     color: rgb(196, 139, 35);
     font-family: calibri;
+    display: flex;
+    justify-content: center;
 }
 
 #footer-services p{
     margin: 0.5cm;
+    display: flex;
+    justify-content: space-around;
 }
 
 #footer-localization{
     color: #888;
     font-size: larger;
     display: inline-block;
-    margin: 1cm 1cm 1cm 80%;
+    margin: 0cm 1cm 1cm 80%;
+    justify-content: center;
     
 }
 
 #footer-localization h3{
     color: rgb(196, 139, 35);
     font-family: calibri;
+    display: flex;
+    justify-content: center;
 }
 
 #footer-localization p{
@@ -297,9 +304,11 @@ footer{
 }
 
 #footer-localization a{
-    margin: 1cm 0.5cm 0.5cm 0.5cm;
+    display: flex;
+    justify-content: space-between;
     color:#888;
     text-decoration: none;
+    justify-content: center;
 }
 
 hr{
