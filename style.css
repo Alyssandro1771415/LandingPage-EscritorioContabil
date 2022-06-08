@@ -3,6 +3,12 @@
     padding: 0%
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+
 #whatsapp{
     border-radius: 50%;
     width: 2.5cm;
