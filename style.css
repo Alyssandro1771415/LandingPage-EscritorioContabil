@@ -58,7 +58,7 @@ header{
     display: inline-block;
     max-width: 55%;
     margin-left: 8%;
-    margin-top: 5%;
+    margin-top: 2%;
     font-family: 'myfont';
     color: white;
     
@@ -68,7 +68,7 @@ header{
     font-size: medium;
     display: inline-block;
     font-family: sans-serif;
-    color:rgb(0, 0, 0);
+    color:rgb(250, 250, 250);
 }
 
 #cor{
